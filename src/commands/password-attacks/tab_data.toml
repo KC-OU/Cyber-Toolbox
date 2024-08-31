@@ -1,0 +1,6 @@
+name = "Password Attacks"
+
+[[data]]
+name = "Packages Install"
+script = "install.sh"
+

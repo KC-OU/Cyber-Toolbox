@@ -1,0 +1,10 @@
+name = "Infomation Gathering"
+
+[[data]]
+name = "Packages Install"
+script = "install.sh"
+
+[[data]]
+name = "nmap scan"
+script = "nmap.sh"
+

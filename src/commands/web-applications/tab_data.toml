@@ -1,0 +1,16 @@
+name = "Web Applications"
+[[data]]
+name = "Packages Install"
+script = "install.sh"
+
+[[data]]
+name = "gobuster scan"
+script = "gobuster.sh"
+
+[[data]]
+name = "dirbuster scan"
+script = "dirbuster.sh"
+
+[[data]]
+name = "dirb scan"
+script = "dirb.sh"
