@@ -1,0 +1,9 @@
+name = "Documentation Setup"
+
+[[data]]
+name = "Documentation-Setup"
+script = "doc-setup.sh"
+
+[[data]]
+name = "Pandoc"
+script = "pandoc.sh"

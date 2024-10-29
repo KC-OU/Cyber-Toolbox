@@ -1,2 +1,2 @@
-directories = ["system-setup","infomation-gathering","password-attacks","program-tools","web-applications"]
+directories = ["system-setup","infomation-gathering","password-attacks","program-tools","web-applications","documentation-setup"]
 
