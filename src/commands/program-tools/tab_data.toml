@@ -1,5 +1,0 @@
-name = "Program Tools"
-[[data]]
-name = "Packages Install"
-script = "install.sh"
-

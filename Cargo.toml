@@ -19,5 +19,5 @@ toml = "0.8.19"
 which = "6.0.3"
 
 [[bin]]
-name = "linutil"
+name = "KC-Learning-Script"
 path = "src/main.rs"
