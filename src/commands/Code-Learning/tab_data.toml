@@ -1,4 +1,38 @@
 name = "Code-Learning"
-[[data]]
 
+[[data]]
+name = "Programming Basics"
+description = "Learn programming fundamentals"
+[[data.entries]]
+name = "Python Version"
+description = "Check Python version"
+command = "python3 --version"
+
+[[data.entries]]
+name = "Node.js Version"
+description = "Check Node.js version"
+command = "node --version"
+
+[[data.entries]]
+name = "Rust Version"
+description = "Check Rust version"
+command = "rustc --version"
+
+[[data]]
+name = "Development Tools"
+description = "Essential development tools and workflows"
+[[data.entries]]
+name = "Git Status"
+description = "Check git repository status"
+command = "git status"
+
+[[data.entries]]
+name = "Package Manager Info"
+description = "Check npm version"
+command = "npm --version"
+
+[[data.entries]]
+name = "System Information"
+description = "Display system information"
+command = "uname -a"
 

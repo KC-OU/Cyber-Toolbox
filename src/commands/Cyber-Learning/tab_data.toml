@@ -1,4 +1,37 @@
 name = "Cyber-Learning"
+
 [[data]]
+name = "Network Security"
+description = "Learn network security fundamentals"
+[[data.entries]]
+name = "Port Scanning"
+description = "Scan for open ports on localhost"
+command = "nmap -sT localhost"
 
+[[data.entries]]
+name = "Network Connections"
+description = "Show active network connections"
+command = "ss -tuln"
 
+[[data.entries]]
+name = "Network Interface Info"
+description = "Display network interface information"
+command = "ip addr show"
+
+[[data]]
+name = "Web Security"
+description = "Web application security testing"
+[[data.entries]]
+name = "HTTP Headers Check"
+description = "Check HTTP headers of a website"
+command = "curl -I https://example.com"
+
+[[data.entries]]
+name = "DNS Lookup"
+description = "Perform DNS lookup"
+command = "dig google.com"
+
+[[data.entries]]
+name = "Certificate Check"
+description = "Check SSL certificate"
+command = "openssl s_client -connect google.com:443 -servername google.com"
